@@ -16,7 +16,7 @@ body {
   position: relative;
 }
 
-.parallax-container::after {
+.parallax-container .mask {
   content: "";
 
   width: 100%;
@@ -32,5 +32,11 @@ body {
 .content {
   width: 100vw;
   height: 150vh;
-  background-color: green;
+  background-color: rgb(39, 105, 39);
+}
+
+.content h1 {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
 }
